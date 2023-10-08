@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Sharpmaid.Service;
 
+Console.WriteLine("Welcome to Sharpmaid");
+
 if (args.Length < 2) throw new ArgumentException("Please supply arguments.");
 
 var entitiesPath = args[0];
